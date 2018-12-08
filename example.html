@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Example - SS Masonry Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta http-equiv="cache-control" content="public">
+  <meta http-equiv="expires" content="2592000">
+
+  <link rel="stylesheet" type="text/css" href="dist/ssMasonryGallery.min.css">
+  <style type="text/css">
+  	/*reset*/
+		html{
+			font-size: 11px;
+			width: 100%;
+			overflow-x: hidden;
+		}
+		@media (min-width: 600px){
+			html{
+				font-size: 12px;
+			}
+		}
+		@media (min-width: 992px){
+			html{
+				font-size: 14px;
+			}
+		}
+		body{
+			margin: 0;
+			overflow-x: hidden;
+		}
+		img{
+			max-width: 100%;
+		}
+		.container {
+			width: 95%;
+			max-width: 1300px;
+			margin: 0 auto;
+		}
+  </style>
+</head>
+
+<body>
+	<div class="container">
+		<div id="ss-masonry">
+		  <img src="src/img/1c99.jpg" />
+		  <img src="src/img/6e1d.jpg" />
+		  <img src="src/img/16.jpg" />
+		  <img src="src/img/20.jpg" />
+		  <img src="src/img/abomination-final.jpg" />
+		  <img src="src/img/ACB.jpg" />
+		  <img src="src/img/ao-background04.jpg" />
+		  <img src="src/img/Cityscape_by_kerembeyit.jpg" />
+		  <img src="src/img/Daemons.jpg" data-caption="Here comes the demons!" />
+		  <img src="src/img/dente8.jpg" />
+		  <img src="src/img/dente20.jpg" />
+		  <img src="src/img/dente29.jpg" />
+		  <img src="src/img/forza.jpg" />
+		  <img src="src/img/God-of-War-3.jpg" />
+		  <img src="src/img/templar.jpg" />
+	  </div>
+
+
+	  <p>Photos copyrights belong to their respective title owners</p>
+	</div>
+
+<script src="src/jquery-3.3.1.min.js"></script>
+<script src="dist/ssMasonryGallery.min.js"></script>
+<script>
+$(window).on('load', function(){
+	$('#ss-masonry').ssMasonryGallery();
+});
+</script>
+</body>
+</html>
