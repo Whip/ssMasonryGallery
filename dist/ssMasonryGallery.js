@@ -1,5 +1,5 @@
 /*
-SSMasonryGallery: https://github.com/VeeK727/ssMasonryGallery
+SSMasonryGallery: https://github.com/VeeK727/ssMasonryGallery/
 Version: 0.1
 Author: Vipul Kapoor (@MrVipulKapoor)
 Licenced under: MIT License
@@ -159,7 +159,6 @@ SOFTWARE.
 		for (var i = 0; i < columns; i++) {
 			colHeights.push(0);
 		}
-		console.log(colHeights);
 
 		$(images).each(function(){
 			var lowestColumn = Math.min.apply(Math, colHeights),
