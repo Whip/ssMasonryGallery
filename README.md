@@ -1,6 +1,8 @@
 # ssMasonryGallery
 Create interesting masonry layout/collage effect with super simple html and barely any javascript. Gallery option is also available to open images in a lightbox.
 
+[Demo](https://veek727.github.io/ssMasonryGallery/)
+
 ### Features
 * Simple HTML
 * No javascript/css knowledge required
