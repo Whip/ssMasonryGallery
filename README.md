@@ -1,11 +1,9 @@
 # ssMasonryGallery
 Create interesting masonry layout/collage effect with super simple html and barely any javascript. Gallery option is also available to open images in a lightbox.
 
-## New
+### New
 * Support for videos in the layout and gallery
 * Improved gallery with navigation
-
-[Demo](https://veek727.github.io/ssMasonryGallery/)
 
 ### Features
 * Simple HTML
@@ -15,10 +13,12 @@ Create interesting masonry layout/collage effect with super simple html and bare
 * Lightbox gallery
 * Optional thumbnails for fast loading
 
+[Demo](https://veek727.github.io/ssMasonryGallery/)
+
 ### Installation
 1. Add files
 ```
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> Gallery uses Material Icons. You can change this in options
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> <!-- Gallery uses Material Icons. You can change this in options -->
 <link rel="stylesheet" type="text/css" href="dist/ssMasonryGallery.min.css">
 
 <script src="src/jquery-3.3.1.min.js"></script>
@@ -28,10 +28,10 @@ Create interesting masonry layout/collage effect with super simple html and bare
 2. Create HTML
 ```
 <div id="ss-masonry">
-		  <img src="src/img/1c99.jpg" data-highres="src/img/1c99.jpg" />
-		  <img src="src/img/6e1d.jpg" data-caption="This is an optional caption" />
-		  <video muted loop controls data-caption="This is a video"><source src="src/img/moments18.mp4" type="video/mp4"></video>
-      ...
+	<img src="src/img/1c99.jpg" data-highres="src/img/1c99.jpg" />
+	<img src="src/img/6e1d.jpg" data-caption="This is an optional caption" />
+	<video muted loop controls data-caption="This is a video"><source src="src/img/moments18.mp4" type="video/mp4"></video>
+	...
 </div>
 ```
 
@@ -83,6 +83,7 @@ iconsHtml: {
 	close: '<i class="material-icons">close</i>'
 }
 ```
+
 Some options are defined in the HTML as `data-` attributes.
 1. To use thumbnail
 ```
