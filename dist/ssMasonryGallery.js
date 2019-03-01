@@ -238,7 +238,7 @@ SOFTWARE.
 		projector.find('.ssMasonryGallery-caption').html(caption);
 
 		if($(newImage).prop('tagName') == 'VIDEO'){
-			projector.find('.img-cont').html($(newImage).clone());
+			projector.find('.img-cont').html($(newImage).clone().removeAttr('style'));
 		} else {
 			projector.find('.img-cont').html('<img src="">');
 			if($(newImage).data('highres'))
