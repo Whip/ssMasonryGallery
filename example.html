@@ -7,7 +7,8 @@
   <meta http-equiv="cache-control" content="public">
   <meta http-equiv="expires" content="2592000">
 
-  <link rel="stylesheet" type="text/css" href="dist/ssMasonryGallery.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="dist/ssMasonryGallery.css">
   <style type="text/css">
   	/*reset*/
 		html{
@@ -49,6 +50,7 @@
 		  <img src="src/img/20.jpg" />
 		  <img src="src/img/abomination-final.jpg" />
 		  <img src="src/img/ACB.jpg" />
+		  <video muted loop controls data-caption="This is a video"><source src="src/img/moments18.mp4" type="video/mp4"></video>
 		  <img src="src/img/ao-background04.jpg" />
 		  <img src="src/img/Cityscape_by_kerembeyit.jpg" />
 		  <img src="src/img/Daemons.jpg" data-caption="Here comes the demons!" />
@@ -64,8 +66,22 @@
 	  <p>Photos copyrights belong to their respective title owners</p>
 	</div>
 
+<!-- <div id="ssMasonryGallery-projector" class="active">
+	<div class="title-bar">
+		<p class="ssMasonryGallery-caption">4/12 - Here comes the demons!</p>
+		<ul class="right">
+			<li><button type="button" id="ssMasonryGallery-left"><i class="material-icons">chevron_left</i></button></li>
+			<li><button type="button" id="ssMasonryGallery-right"><i class="material-icons">chevron_right</i></button></li>
+			<li><button type="button" id="ssMasonryGallery-close"><i class="material-icons">close</i></button></li>
+		</ul>
+	</div>
+	<div class="img-cont">
+		<img src="src/img/Daemons.jpg">
+	</div>
+</div> -->
+
 <script src="src/jquery-3.3.1.min.js"></script>
-<script src="dist/ssMasonryGallery.min.js"></script>
+<script src="dist/ssMasonryGallery.js"></script>
 <script>
 $(window).on('load', function(){
 	$('#ss-masonry').ssMasonryGallery();
